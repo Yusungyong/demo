@@ -17,7 +17,7 @@ public class SampleServiceImpl implements SampleService{
 
 	@Override
 	public int insertSampleSvc() {
-		int success = sampleMapper.insertSampleTable("str1");
+		int success = sampleMapper.insertSampleTable("str3");
 		
 		return success;
 	}

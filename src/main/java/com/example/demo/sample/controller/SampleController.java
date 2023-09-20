@@ -14,7 +14,7 @@ public class SampleController {
 
 	@GetMapping("/")
 	public String sample() {
-		int successInteger = sampleService.insertSampleSvc();
+//		int successInteger = sampleService.insertSampleSvc();
 		return "index";
 	}
 }
